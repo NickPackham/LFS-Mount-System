@@ -1,0 +1,6 @@
+hook.Add("Initialize", "EPSMounts_LoadFonts", function()
+    XeninUI:CreateFont("XeninUI.EPSMounts.Label", ScrW() * 0.015)
+    XeninUI:CreateFont("XeninUI.EPSMounts.Confirm", ScrW() * 0.01)
+    XeninUI:CreateFont("XeninUI.EPSMounts.Button", ScrW() * 0.009)
+    XeninUI:CreateFont("XeninUI.EPSMounts.Large", ScrW() * 0.02)
+end)
